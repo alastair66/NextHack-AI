@@ -1,2 +1,2 @@
 # NextHack-AI
-A Pentester AI 
+A AI Pentester
