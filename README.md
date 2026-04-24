@@ -13,8 +13,6 @@ a full-stack security testing application for internal teams to run authorized, 
 
 <img width="1430" height="799" alt="Screenshot 2026-04-24 at 11 25 39 AM" src="https://github.com/user-attachments/assets/6aa9a9ee-c8db-4612-833f-19f2a930e35b" />
 
-<img width="1425" height="799" alt="Screenshot 2026-04-24 at 11 26 02 AM" src="https://github.com/user-attachments/assets/c29da97b-0ddc-4061-ae10-b7c160016846" />
-
 
 
 
