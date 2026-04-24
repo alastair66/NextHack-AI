@@ -16,21 +16,21 @@ a full-stack security testing application for internal teams to run authorized, 
 
 
 # Core Features
-Authentication + session management with RBAC (viewer, analyst, admin)
-Scope and target management with lock controls during active engagements
-Scan lifecycle APIs (draft/start/run/stop/complete) with live progress/log updates
-Advanced scanner checks (headers, transport, reflection/XSS validation, SQLi exploitation workflow, path/traversal checks, CORS, etc.)
-Browser-assisted security validation via Playwright (DOM/XSS and SPA endpoint discovery)
-CAI-based artifact reasoning and finding enrichment pipelines
-Findings workflow (review, validate/unvalidate, detail view, evidence handling)
-Report export endpoints (JSON + platform-friendly formats)
-Separated backend responsibilities (core app backend vs dedicated email delivery backend)
+- Authentication + session management with RBAC (viewer, analyst, admin)
+- Scope and target management with lock controls during active engagements
+- Scan lifecycle APIs (draft/start/run/stop/complete) with live progress/log updates
+- Advanced scanner checks (headers, transport, reflection/XSS validation, SQLi exploitation workflow, path/traversal checks, CORS, etc.)
+- Browser-assisted security validation via Playwright (DOM/XSS and SPA endpoint discovery)
+- CAI-based artifact reasoning and finding enrichment pipelines
+- Findings workflow (review, validate/unvalidate, detail view, evidence handling)
+- Report export endpoints (JSON + platform-friendly formats)
+- Separated backend responsibilities (core app backend vs dedicated email delivery backend)
 
 # Tech Stack
-Frontend: Next.js 14, React, TypeScript, Tailwind CSS, Radix UI
-Backend (app): Next.js App Router API routes (TypeScript)
-Backend (aux): FastAPI (Python) for CAI/email support services
-Database/ORM: SQLite + Prisma
-Security/AI: Custom scanner engine, Coordinator/Solver execution model, CAI integrations
-Browser automation: Playwright (Chromium)
+- Frontend: Next.js 14, React, TypeScript, Tailwind CSS, Radix UI
+- Backend (app): Next.js App Router API routes (TypeScript)
+- Backend (aux): FastAPI (Python) for CAI/email support services
+- Database/ORM: SQLite + Prisma
+- Security/AI: Custom scanner engine, Coordinator/Solver execution model, CAI integrations
+- Browser automation: Playwright (Chromium)
 
