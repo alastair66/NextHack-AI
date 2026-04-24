@@ -2,12 +2,12 @@
 a full-stack security testing application for internal teams to run authorized, scope-locked web app assessments with auditability, role-based controls, and AI-assisted analysis.
 
 # What this app does
-Runs authorized vulnerability scans against predefined scope (domains, techniques, rate limits), with explicit engagement controls.
-Uses a Coordinator + Solver architecture for scalable scan orchestration (job queue, concurrent workers, findings graph, progress tracking).
-Produces actionable findings with severity/confidence, CWE/OWASP mapping, remediation guidance, and validation metadata.
-Integrates AI-assisted reasoning and redteam enrichment for findings triage and next-scan recommendations.
-Supports admin governance via audit logs, role-based access, and secure operational workflows.
-Exports findings/reports in multiple formats for internal and external reporting use cases.
+- Runs authorized vulnerability scans against predefined scope (domains, techniques, rate limits), with explicit engagement controls.
+- Uses a Coordinator + Solver architecture for scalable scan orchestration (job queue, concurrent workers, findings graph, progress tracking).
+- Produces actionable findings with severity/confidence, CWE/OWASP mapping, remediation guidance, and validation metadata.
+- Integrates AI-assisted reasoning and redteam enrichment for findings triage and next-scan recommendations.
+- Supports admin governance via audit logs, role-based access, and secure operational workflows.
+- Exports findings/reports in multiple formats for internal and external reporting use cases.
 
 <img width="1424" height="788" alt="Screenshot 2026-04-24 at 11 25 03 AM" src="https://github.com/user-attachments/assets/0ae987c8-b327-4efa-8400-90ffb67ed73d" />
 
